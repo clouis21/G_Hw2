@@ -1,0 +1,167 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+	background-color: white;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+	font-size: 1.2em;
+}
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+}
+h2 {
+	color: #3399CC;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+#contact {
+	font-size: 190%;
+}
+dt {
+	color: #330010;
+}
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+/*chad code */
+
+body {
+	background-image: url("./ptrbackground.jpg") ;
+}
+
+
+#wrapper {
+	display:grid;
+	grid-template-columns: 220px 1fr;
+	background-image: url("./background.jpg") ;
+
+}
+
+
+
+header {	/*html feader in block display format to display page header with image background and fading color*/
+	display:block;
+	background-image: url("./sunset.jpg"); 
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: #000032;
+	margin: 85px;
+	margin-top: 33px;
+	margin-bottom: 0px;
+  padding: 0;
+	grid-column: 1 / 3; 
+}
+
+nav{ /*Nav bar formated to be displaye left of page with adjustable height in sm mode*/
+	width: 160px;
+	left: 900px;
+	position:aright;
+	background-color: #90c8e3;
+	height: relative;
+	grid-row: 2 / 4;
+	margin-left: 85px;
+		
+
+}
+
+#content{ /* Page content formated to be justified riright of nav bar with adjusted height*/
+	padding:20px;
+	padding-left: 40px;
+	margin-right: 85px;
+	background-color: #FFFFFF;
+	margin-left: 25px;
+	height: 565px;
+	white-space: nowwrap;
+	overflow: hidden;
+
+	
+
+}
+
+footer{ /* Page footer formated to be justified to bottom of page with adjusted height*/
+	padding:5px;
+	padding-left: 40px;
+	margin-right: 85px;
+	font-style: italic;
+	background-color: white;
+	margin-left: 25px;
+	white-space: nowwrap;
+	overflow: hidden;
+
+
+}
+
+
+h1 {/* Page header 1 formated to be text color white*/
+
+	color: white;
+	font-size: 40px;
+}
+
+h2 {
+	margin-top:0px;
+
+	color: #379dc7;
+	margin-bottom: 20px;
+	font-size: 30px;
+	
+
+}
+
+img {
+	float: left;
+	margin-right: 20px;
+}
+
+nav > ul {
+	list-style-type: none;
+	margin-left: -22px;
+
+}
+
+nav > ul > li > a {
+	text-decoration: none;
+	color:#031852;
+	font-weight:bolder;
+	font-size:22px;
+}
+
+nav > ul > li > a:visited {
+	text-decoration: none;
+	color:#031852;
+}
+.resort{
+	font-weight: bold;
+	color: #379dc7;
+}
+
+#contact{
+	font-size: 14px;
+}
+
+#content > p {
+	font-size: 18px;
+}
+
+#content > ul > li {
+	font-size: 18px;
+}
+
+#content > ul { /* Page content picture formated to be in the iiner pasition of content*/
+	list-style-image: url('./marker.gif');
+  list-style-position: inside;
+}
