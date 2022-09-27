@@ -51,8 +51,6 @@ body {
 
 }
 
-
-
 header {	/*html feader in block display format to display page header with image background and fading color*/
 	display:block;
 	background-image: url("./sunset.jpg"); 
@@ -74,8 +72,6 @@ nav{ /*Nav bar formated to be displaye left of page with adjustable height in sm
 	height: relative;
 	grid-row: 2 / 4;
 	margin-left: 85px;
-		
-
 }
 
 #content{ /* Page content formated to be justified riright of nav bar with adjusted height*/
@@ -87,9 +83,6 @@ nav{ /*Nav bar formated to be displaye left of page with adjustable height in sm
 	height: 565px;
 	white-space: nowwrap;
 	overflow: hidden;
-
-	
-
 }
 
 footer{ /* Page footer formated to be justified to bottom of page with adjusted height*/
@@ -101,25 +94,19 @@ footer{ /* Page footer formated to be justified to bottom of page with adjusted 
 	margin-left: 25px;
 	white-space: nowwrap;
 	overflow: hidden;
-
-
 }
 
 
 h1 {/* Page header 1 formated to be text color white*/
-
 	color: white;
 	font-size: 40px;
 }
 
 h2 {
 	margin-top:0px;
-
 	color: #379dc7;
 	margin-bottom: 20px;
 	font-size: 30px;
-	
-
 }
 
 img {
@@ -130,7 +117,6 @@ img {
 nav > ul {
 	list-style-type: none;
 	margin-left: -22px;
-
 }
 
 nav > ul > li > a {
