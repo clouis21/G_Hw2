@@ -1,4 +1,4 @@
-header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+header, hgroup, nav, footer, figure, figcaption, aside, section, article { /*This places all the conttent ins a box it essentially generates a block element box*/
 	display: block;
 }
 body {
@@ -8,10 +8,10 @@ body {
 }
 
 nav ul {
-	font-size: 1.2em;
+	font-size: 1.2em; 
 }
 nav a:visited {
-	color: #344873;
+	color: #344873; 
 }
 nav a:hover {
 	color: #FFFFFF;
@@ -37,7 +37,7 @@ footer {
 	font-family: Georgia, "Times New Roman", serif;
 }
 
-/*chad code */
+/*Formated section*/
 
 body {
 	background-image: url("./ptrbackground.jpg") ;
@@ -74,7 +74,7 @@ nav{ /*Nav bar formated to be displaye left of page with adjustable height in sm
 	margin-left: 85px;
 }
 
-#content{ /* Page content formated to be justified riright of nav bar with adjusted height*/
+#content{ /* Page content formated to be justified right of nav bar with adjusted height, Overflow hiden keeps content from spilling over in differnt screen size*/
 	padding:20px;
 	padding-left: 40px;
 	margin-right: 85px;
@@ -111,7 +111,7 @@ h2 {
 
 img {
 	float: left;
-	margin-right: 20px;
+	margin-right: 20px;/*Commed drifts image to the desired position*/
 }
 
 nav > ul {
@@ -147,7 +147,7 @@ nav > ul > li > a:visited {
 	font-size: 18px;
 }
 
-#content > ul { /* Page content picture formated to be in the iiner pasition of content*/
+#content > ul { /* Page content picture formated to be in the liner pasition of content*/
 	list-style-image: url('./marker.gif');
   list-style-position: inside;
 }
